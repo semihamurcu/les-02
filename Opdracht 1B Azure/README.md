@@ -32,3 +32,11 @@ Zie script in main.tf
 Eindresultaat = 
 
 ![alt text](image.png)
+
+## 🧪 Terraform Commands
+
+Voor het uitvoeren van beide deployments gebruik je de standaard Terraform-commando’s:
+
+```bash
+terraform init
+terraform apply

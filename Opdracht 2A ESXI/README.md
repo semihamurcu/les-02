@@ -1,6 +1,7 @@
 # Infrastructuur als Code (Terraform) – ESXi & Azure Deployment
 
 ## 2.1 Bronnen
+https://leren.windesheim.nl/d2l/le/lessons/98305/topics/1223765
 
 https://chatgpt.com/share/6836d5bc-58b8-8002-814f-97098108539c
 
@@ -52,3 +53,11 @@ Je hebt een Terraform manifest gemaakt waarmee 3 Ubuntu VM’s op een lokale ESX
 # Opdracht 2A resultaat:
 
 Zie 2A Resultaat.mp4
+
+## 🧪 Terraform Commands
+
+Voor het uitvoeren van beide deployments gebruik je de standaard Terraform-commando’s:
+
+```bash
+terraform init
+terraform apply
