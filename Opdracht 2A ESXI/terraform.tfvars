@@ -1,0 +1,5 @@
+disk_store     = "Datastore1"
+ovf_url        = "https://cloud-images.ubuntu.com/releases/24.04/release/ubuntu-24.04-server-cloudimg-amd64.ova"
+network_name   = "VM Network"
+ssh_pub_key    = "~/.ssh/devhostnieuw.pub"
+ssh_priv_key   = "~/.ssh/devhostnieuw"
