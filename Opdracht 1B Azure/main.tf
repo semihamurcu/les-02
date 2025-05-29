@@ -62,10 +62,10 @@ resource "azurerm_linux_virtual_machine" "ubuntu_vm" {
     storage_account_type = "Standard_LRS"
   }
 
-  source_image_reference {
+source_image_reference {
     publisher = "Canonical"
-    offer     = "0001-com-ubuntu-server-jammy"
-    sku       = "24_04-lts"
+    offer     = "ubuntu-24_04-lts" # Specifiek de 24.04 gevonden
+    sku       = "server"
     version   = "latest"
   }
 }
